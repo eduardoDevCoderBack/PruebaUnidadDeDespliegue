@@ -50,6 +50,11 @@
 			<artifactId>MZICC008</artifactId>
 			<version>[0.0, )</version>
 		</dependency>
+		<dependency>
+			<groupId>com.bbva.mzic.dto.projecto</groupId>
+			<artifactId>MZICC009</artifactId>
+			<version>[0.0, )</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<finalName>${project.artifactId}</finalName>

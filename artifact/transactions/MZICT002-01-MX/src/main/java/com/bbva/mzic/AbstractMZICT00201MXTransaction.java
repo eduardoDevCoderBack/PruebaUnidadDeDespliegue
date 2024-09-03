@@ -1,6 +1,7 @@
 package com.bbva.mzic;
 
 import com.bbva.elara.transaction.AbstractTransaction;
+import com.bbva.mzic.dto.projecto.LetterDTO;
 import com.bbva.mzic.dto.projecto.PRUEBA2;
 
 /**
@@ -45,5 +46,40 @@ public abstract class AbstractMZICT00201MXTransaction extends AbstractTransactio
 	 */
 	protected String getEmail(){
 		return (String)this.getParameter("email");
+	}
+
+	/**
+	 * Set value for LetterDTO output parameter MZICC009
+	 */
+	protected void setMzicc009(final LetterDTO field){
+		this.addParameter("MZICC009", field);
+	}
+
+	/**
+	 * Set value for String output parameter Name
+	 */
+	protected void setName(final String field){
+		this.addParameter("Name", field);
+	}
+
+	/**
+	 * Set value for String output parameter LastName
+	 */
+	protected void setLastname(final String field){
+		this.addParameter("LastName", field);
+	}
+
+	/**
+	 * Set value for String output parameter email
+	 */
+	protected void setEmail(final String field){
+		this.addParameter("email", field);
+	}
+
+	/**
+	 * Set value for Long output parameter Y
+	 */
+	protected void setY(final Long field){
+		this.addParameter("Y", field);
 	}
 }

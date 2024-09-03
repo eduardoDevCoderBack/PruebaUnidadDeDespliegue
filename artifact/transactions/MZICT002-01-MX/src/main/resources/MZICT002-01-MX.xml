@@ -7,6 +7,12 @@
 		<parameter order="4" name="LastName" mandatory="0" type="String" size="50"/>
 		<parameter order="5" name="email" mandatory="0" type="String" size="50"/>
 	</paramsIn>
-	<paramsOut/>
+	<paramsOut>
+		<dto order="1" name="MZICC009" mandatory="0" package="com.bbva.mzic.dto.projecto.LetterDTO" artifactId="MZICC009"/>
+		<parameter order="2" name="Name" mandatory="0" type="String" size="50"/>
+		<parameter order="3" name="LastName" mandatory="0" type="String" size="50"/>
+		<parameter order="4" name="email" mandatory="0" type="String" size="50"/>
+		<parameter order="5" name="Y" mandatory="0" type="Long" size="50"/>
+	</paramsOut>
 	<description>TRX para unidad de despliegue</description>
 </transaction>
